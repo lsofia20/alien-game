@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
         maxX = esqSupDer.x;
         minY = esqInfIzq.y;
         maxY = esqSupDer.y;
-
     }
 
     // Update is called once per frame
