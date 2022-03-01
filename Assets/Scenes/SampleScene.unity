@@ -365,11 +365,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3033616645885425890, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
       propertyPath: vida
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033616645885425890, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3033616645885425913, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
       propertyPath: m_Name
       value: rabbit (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033616645885425917, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033616645885425917, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3033616645885425919, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
       propertyPath: m_RootOrder
@@ -808,7 +820,7 @@ GameObject:
   - component: {fileID: 2085039647}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

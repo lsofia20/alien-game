@@ -137,5 +137,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vida: 0
+  vida: 2
   efectoMuerte: {fileID: 0}
