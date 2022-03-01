@@ -39,5 +39,11 @@ public class Player : MonoBehaviour
         {
             Instantiate(bullet, transform.position, transform.rotation);
         }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
     }
 }

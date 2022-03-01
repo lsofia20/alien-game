@@ -6,7 +6,9 @@ public class Animal : MonoBehaviour
 {
     Rigidbody2D myBody;
     [SerializeField] float speed;
+    int lifePoints=10;
     float minX, maxX, minY, maxY;
+    Animal animal;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,14 +31,28 @@ public class Animal : MonoBehaviour
             Mathf.Clamp(transform.position.x, minX, maxX),
             Mathf.Clamp(transform.position.y, minY, maxY)
             );
+        
     }
 
     private void FixedUpdate()
     {
         myBody.velocity = new Vector2(speed,myBody.velocity.y);
+        if (transform.position.x == maxX)
+        {
+            speed = -3;
+        }
+        if(transform.position.x == minX)
+        {
+            speed = 3;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.name.Equals("Bullet(Clone)"))
+        {
+            int newLifePts = lifePoints - 1;
+
+        }
     }
 }
