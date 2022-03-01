@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private float velocidad;
     [SerializeField] private float daño;
-    
+
     private void Update()
     {
         transform.Translate(Vector2.down * velocidad * Time.deltaTime);
@@ -21,5 +21,3 @@ public class Bullet : MonoBehaviour
         }
     }
 }
-
-

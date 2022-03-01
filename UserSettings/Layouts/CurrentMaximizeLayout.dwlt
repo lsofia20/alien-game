@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 145
+  controlID: 6826
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -60,7 +60,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 953.33325
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 196
+  controlID: 6817
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 197
+  controlID: 6818
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,18 +178,18 @@ MonoBehaviour:
       m_ExpandedIDs: 6afaffffc45e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Main Camera
-        m_OriginalName: Main Camera
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 24234
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -473,9 +473,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.010000229, y: -4.9615, z: 0}
+    m_Target: {x: -2.3372595, y: -2.0194077, z: -0.015608683}
     speed: 2
-    m_Value: {x: 0, y: 0, z: -10}
+    m_Value: {x: -2.3372595, y: -2.0194077, z: -0.015608683}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -526,9 +526,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.756961
+    m_Target: 5.107247
     speed: 2
-    m_Value: 12.124355
+    m_Value: 5.107247
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -627,18 +627,18 @@ MonoBehaviour:
       y: 21
       width: 821.99994
       height: 332.66666
-    m_Scale: {x: 0.47163054, y: 0.47163054}
-    m_Translation: {x: 410.99997, y: 166.55484}
+    m_Scale: {x: 0.46203706, y: 0.46203703}
+    m_Translation: {x: 410.99997, y: 166.33333}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -871.44476
-      y: -353.14685
-      width: 1742.8895
-      height: 705.3544
+      x: -889.539
+      y: -360
+      width: 1779.078
+      height: 720
     m_MinimalGUI: 1
   m_defaultScale: 0.46203703
   m_LastWindowPixelSize: {x: 1232.9999, y: 530.5}
@@ -892,7 +892,7 @@ MonoBehaviour:
     x: 1024.6667
     y: 72.66667
     width: 254.33337
-    height: 566.3333
+    height: 566.3334
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

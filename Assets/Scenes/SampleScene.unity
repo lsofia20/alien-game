@@ -130,9 +130,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9201677815911331637, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
+      propertyPath: vida
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1347644107466343950, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
       propertyPath: m_Name
       value: sloth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347644107466343950, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
       objectReference: {fileID: 0}
     - target: {fileID: 2231179143042166304, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
       propertyPath: m_RootOrder
@@ -355,6 +363,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3033616645885425890, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
+      propertyPath: vida
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3033616645885425913, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
       propertyPath: m_Name
       value: rabbit (1)
@@ -456,9 +468,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3277090940661292903, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
+      propertyPath: vida
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7937840911444032792, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
       propertyPath: m_Name
       value: dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937840911444032792, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
@@ -469,9 +489,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9201677815911331637, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
+      propertyPath: vida
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1347644107466343950, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
       propertyPath: m_Name
       value: sloth (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347644107466343950, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
       objectReference: {fileID: 0}
     - target: {fileID: 2231179143042166304, guid: ddbc7d20ff36c2f4ebfe339bae435e09, type: 3}
       propertyPath: m_RootOrder
@@ -753,9 +781,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3277090940661292903, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
+      propertyPath: vida
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7937840911444032792, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
       propertyPath: m_Name
       value: dog (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937840911444032792, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 883bd1343f1b7ac4faea78a8c8bbf56b, type: 3}
@@ -877,6 +913,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3033616645885425890, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
+      propertyPath: vida
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3033616645885425913, guid: 902dfc7ea0df7ac428f08c9a24c77caa, type: 3}
       propertyPath: m_Name
       value: rabbit
