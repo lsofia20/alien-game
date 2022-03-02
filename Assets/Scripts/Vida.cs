@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Vida : MonoBehaviour
 {
-    public float vida;
+    public float vidas;
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class Vida : MonoBehaviour
 
     void Update()
     {
-        if (vida <= 0)
+        if (vidas <= 0)
         {
             Destroy(gameObject);
         }

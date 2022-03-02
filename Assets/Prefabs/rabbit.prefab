@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3033616645885425916}
   - component: {fileID: 3033616645885425917}
   - component: {fileID: 3033616645885425890}
+  - component: {fileID: 6753241593086873872}
+  - component: {fileID: 6499699758417028694}
   m_Layer: 6
   m_Name: rabbit
   m_TagString: Enemigo
@@ -139,3 +141,28 @@ MonoBehaviour:
   speed: 3
   vida: 2
   efectoMuerte: {fileID: 0}
+--- !u!114 &6753241593086873872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3033616645885425913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1b161a6c76aaf4e9f937c1eec6d04f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 0
+--- !u!114 &6499699758417028694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3033616645885425913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235f456802522f34a864938ab7cbe0bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
