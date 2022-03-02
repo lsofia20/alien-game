@@ -7,9 +7,7 @@ public class Player : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] GameObject bullet;
     float minX, maxX, minY, maxY;
-    public float fireRate = 0.5f;
-    float nexFire = 0.0f;
-    Vector2 bulletPost;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -44,22 +42,9 @@ public class Player : MonoBehaviour
             Instantiate(bullet, transform.position, transform.rotation);
         }
         
-     
-        if (Input.GetButtonDown("Fire1") && Time.time > nexFire)
-        {
-            nexFire = Time.time + fireRate;
-            fire();
-        }
-    }
-
-    void fire()
-    {
-        bulletPost = transform.position;
-        if (facingBingth)
-        {
-            bulletPost += new Vector2(+1f, -0.40f);
-            Instantiate(bullet, bulletPost, Quaternion.identity);
-        } 
+    
+    
+        
     }
 
 
