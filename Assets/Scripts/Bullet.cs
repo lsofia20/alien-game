@@ -6,10 +6,13 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private float velocidad;
     [SerializeField] private float daño;
+    
 
     private void Update()
     {
         transform.Translate(Vector2.down * velocidad * Time.deltaTime);
+
+     
     }
 
     private void OnTriggerEnter2D(Collider2D other)
